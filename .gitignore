@@ -1,0 +1,9 @@
+.agents/
+.claude/
+skills-lock.json
+# Lower-level OKX skills are external dependencies, not part of the MandateOS deliverable
+skills/okx-cex-bot/
+skills/okx-cex-earn/
+skills/okx-cex-market/
+skills/okx-cex-portfolio/
+skills/okx-cex-trade/

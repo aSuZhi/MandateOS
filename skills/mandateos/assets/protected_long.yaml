@@ -1,0 +1,17 @@
+objective: "在 30 天内参与上涨行情，同时把回撤压在 5% 以内"
+horizon: "30d"
+risk_budget:
+  max_drawdown_pct: 5
+  max_single_trade_risk_pct: 1.5
+  max_leverage: 2
+allowed_modules:
+  - "spot"
+  - "option"
+  - "earn"
+forbidden_actions:
+  - "不做高杠杆裸多"
+  - "不卖出无保护期权"
+  - "不在未设保护的情况下扩大方向仓位"
+liquidity_buffer: "35%"
+style: "protected"
+approval_mode: "explicit-execution"

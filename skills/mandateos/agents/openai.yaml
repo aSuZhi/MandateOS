@@ -1,0 +1,4 @@
+interface:
+  display_name: "MandateOS"
+  short_description: "Mandate-driven OKX strategy orchestration"
+  default_prompt: "Use $mandateos to show the capability menu, create a mandate profile, and turn short prompts into OKX trading proposals."

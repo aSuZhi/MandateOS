@@ -1,0 +1,17 @@
+objective: "优先提高闲置资金效率，只在有优势时做低频增配"
+horizon: "30d"
+risk_budget:
+  max_drawdown_pct: 3
+  max_single_trade_risk_pct: 1
+  max_leverage: 1
+allowed_modules:
+  - "earn"
+  - "spot"
+  - "option"
+forbidden_actions:
+  - "不为了收益率强行交易"
+  - "不使用杠杆追求 carry"
+  - "不动用流动性缓冲去追逐短期波动"
+liquidity_buffer: "40%"
+style: "carry"
+approval_mode: "proposal-only"

@@ -1,0 +1,17 @@
+objective: "在震荡环境中优先做区间收益并保留充足流动性"
+horizon: "30d"
+risk_budget:
+  max_drawdown_pct: 5
+  max_single_trade_risk_pct: 1.5
+  max_leverage: 1
+allowed_modules:
+  - "spot"
+  - "earn"
+  - "bot"
+forbidden_actions:
+  - "不追突破"
+  - "不使用高杠杆放大区间策略"
+  - "不在超出预设区间时继续加码"
+liquidity_buffer: "30%"
+style: "range"
+approval_mode: "proposal-only"

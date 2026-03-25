@@ -1,0 +1,17 @@
+objective: "在可控回撤内捕捉 14 天趋势机会"
+horizon: "14d"
+risk_budget:
+  max_drawdown_pct: 8
+  max_single_trade_risk_pct: 2
+  max_leverage: 3
+allowed_modules:
+  - "spot"
+  - "swap"
+  - "option"
+forbidden_actions:
+  - "不开高于 3x 的杠杆"
+  - "不做无保护裸空"
+  - "不在放量长阳后追价开新仓"
+liquidity_buffer: "25%"
+style: "trend"
+approval_mode: "explicit-execution"
