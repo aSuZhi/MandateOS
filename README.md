@@ -32,7 +32,7 @@ One-line positioning:
 
 `MandateOS is not another trading chatbot. It is a mandate-aware control layer that turns one short prompt into a disciplined OKX multi-skill workflow.`
 
-## 为什么这个作品容易拿高分 / Why This Scores Well
+## 作品介绍
 
 中文：
 - `Integration`：一条短 prompt 先解析 mandate，再进入路由，再决定下游 OKX skill chain
